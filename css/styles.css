@@ -1,0 +1,60 @@
+/*general*/
+:root{
+    --primery-text-color:#212121;
+    --contact-text-color:#7575;
+    --accent-text-color: #2196F3;
+    --whaite-color:#FFFFFF;
+    --black-color: #000000;
+    --background-color:#E5E5E5;
+    --secondary-bg:#2F303A;
+    --primery-font:'Roboto', sans-serif;;
+    --secondary-font:'Raleway', sans-serif;
+   }
+   body 
+   {background-color: var(--background-color);
+   color: var(--primery-text-color); 
+   font-family: var(--primery-font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;}
+  
+   .list {
+       list-style: none;
+   }
+
+/* heder*/
+.header {
+    background-color: var(--whaite-color);
+}
+.header-logo {
+    color: var(--black-color);
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.header-logo-accent {
+    color: var(--accent-text-color);
+ }
+.main-nav {
+color: var(--primery-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+ }
+.main-nav .main-nav-link:hover ,
+.main-nav .main-nav-link:focus
+{
+    color: var(--accent-text-color);
+}
+.contact { 
+
+}
+
+/*main*/
+/* visability: hidden*/
+/*footer*/
